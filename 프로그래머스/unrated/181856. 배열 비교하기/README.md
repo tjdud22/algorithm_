@@ -1,10 +1,10 @@
-# [unrated] 배열 비교하기 - 181856 
+# [level unrated] 배열 비교하기 - 181856 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181856) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181856?language=python3) 
 
 ### 성능 요약
 
-메모리: 76 MB, 시간: 0.02 ms
+메모리: 10.1 MB, 시간: 0.00 ms
 
 ### 구분
 
@@ -13,6 +13,10 @@
 ### 채점결과
 
 정확성: 100.0<br/>합계: 100.0 / 100.0
+
+### 제출 일자
+
+2023년 10월 4일 8:15:53
 
 ### 문제 설명
 
@@ -91,4 +95,4 @@
 <p>※ 공지 - 2023년 4월 21일 테스트케이스가 추가되었습니다. 기존에 제출한 코드가 통과하지 못할 수도 있습니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
