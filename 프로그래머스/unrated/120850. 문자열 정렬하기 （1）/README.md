@@ -1,10 +1,10 @@
 # [level unrated] 문자열 정렬하기 (1) - 120850 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120850) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120850?language=python3) 
 
 ### 성능 요약
 
-메모리: 78.8 MB, 시간: 0.77 ms
+메모리: 10.5 MB, 시간: 0.04 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 10월 2일 11:38:55
+2023년 10월 0일 10:44:42
 
 ### 문제 설명
 
