@@ -1,4 +1,3 @@
-import java.util.Arrays;
 class Solution {
     public String[] solution(String[] names) {
          int len = (int) Math.ceil((double) names.length / 5);
