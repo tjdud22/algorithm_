@@ -3,14 +3,14 @@ class Solution {
     public String solution(String s) {
         String answer = "";
 
-        int[] count = new int[256]; 
+        int[] count = new int[26]; 
 
         for (char ch : s.toCharArray()) {
-            count[ch]++;
+            count[ch-'a']++;
         }
 
         for (char ch : s.toCharArray()) {
-            if (count[ch] == 1) {
+            if (count[ch-'a'] == 1) {
                 answer += ch;
             }
         }
