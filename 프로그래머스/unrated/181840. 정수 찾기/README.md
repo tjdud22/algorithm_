@@ -1,10 +1,10 @@
 # [level unrated] 정수 찾기 - 181840 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181840) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181840?language=python3) 
 
 ### 성능 요약
 
-메모리: 75.2 MB, 시간: 0.02 ms
+메모리: 10.1 MB, 시간: 0.00 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 10월 4일 9:32:25
+2023년 11월 2일 7:52:31
 
 ### 문제 설명
 
