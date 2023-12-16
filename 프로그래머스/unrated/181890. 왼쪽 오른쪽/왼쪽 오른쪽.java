@@ -2,14 +2,18 @@ import java.util.ArrayList;
 import java.util.Arrays;
 class Solution {
     public String[] solution(String[] str_list) {
-     ArrayList<String> answerList = new ArrayList<>();
+         ArrayList<String> answerList = new ArrayList<>();
 
         for (int i = 0; i < str_list.length; i++) {
             if (str_list[i].equals("l")) {
-                answerList.addAll(Arrays.asList(Arrays.copyOfRange(str_list, 0, i)));
+                for (int j = 0; j < i; j++) {
+                    answerList.add(str_list[j]);
+                }
                 break;
             } else if (str_list[i].equals("r")) {
-                answerList.addAll(Arrays.asList(Arrays.copyOfRange(str_list, i + 1, str_list.length)));
+                for (int j = i + 1; j < str_list.length; j++) {
+                    answerList.add(str_list[j]);
+                }
                 break;
             }
         }
