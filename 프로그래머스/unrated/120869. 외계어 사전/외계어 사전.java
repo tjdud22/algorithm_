@@ -10,6 +10,7 @@ class Solution {
                 }
                  if(cnt==spell.length){
                 answer = 1;
+                      break; 
                 }
             }
         }
