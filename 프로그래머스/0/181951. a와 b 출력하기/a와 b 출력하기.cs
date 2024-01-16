@@ -13,8 +13,8 @@ public class Example
         int b = Int32.Parse(s[1]);
 
         // Console.WriteLine("{0}", a + b);
-        Console.WriteLine("a = " + a);
-        Console.WriteLine("b = " + b);
+        Console.WriteLine("a = {0}" , a);
+        Console.WriteLine("b = {0}" , b);
         
     }
 }
