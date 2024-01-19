@@ -6,7 +6,7 @@ class Solution {
         String[] strList = polynomial.split("\\s*\\+\\s*");
 
         for (String str : strList) {
-            str = str.trim(); // Trim leading and trailing whitespace
+            str = str.trim(); 
             if (str.contains("x")) {
                 if (str.equals("x")) {
                     numX += 1;
