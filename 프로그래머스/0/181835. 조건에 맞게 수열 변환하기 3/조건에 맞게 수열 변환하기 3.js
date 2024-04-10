@@ -1,10 +1,10 @@
 function solution(arr, k) {
     var answer = [];
-    for (let i = 0; i < arr.length; i++) {
+    for (let i of arr) {
         if (k % 2 == 1) {
-            answer[i] = arr[i] * k;
+            answer.push(i*k);
         } else {
-            answer[i] = arr[i] + k;
+            answer.push(i+k);
         }
     }
     return answer;
