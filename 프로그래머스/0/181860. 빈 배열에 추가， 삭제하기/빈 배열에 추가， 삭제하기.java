@@ -1,7 +1,7 @@
 import java.util.*;
 class Solution {
     public int[] solution(int[] arr, boolean[] flag) {
-         ArrayList<Integer> result = new ArrayList<Integer>();
+          ArrayList<Integer> result = new ArrayList<Integer>();
 
         for (int i = 0; i < flag.length; i++) {
             if (flag[i]) {
@@ -20,5 +20,5 @@ class Solution {
             answer[i] = result.get(i);
         }
         return answer;
-    }
+    }   
 }
