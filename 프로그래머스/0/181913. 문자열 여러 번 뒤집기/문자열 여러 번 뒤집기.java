@@ -1,16 +1,15 @@
 class Solution {
     public String solution(String my_string, int[][] queries) {
-        for(int[] query : queries) {
+        String answer = "";
+        for(int i =0; i<queries.length; i++){
             String b = "";
-            for(int i = query[1]; i >=query[0]; i--) {
-                b += my_string.charAt(i);
+            for(int j=queries[i][1]; j>=queries[i][0]; j--){
+                b+= my_string.charAt(j);
             }
-            String a = my_string.substring(0, query[0]);
-            String c = my_string.substring(query[1]+1);
-
-            my_string = a + b + c;
-        }
-
-        return my_string;
+             String a = my_string.substring(0,queries[i][0]);
+             String c = my_string.substring(queries[i][1]+1);
+            answer  = a + b + c;
+            }
+        return answer;
     }
 }
