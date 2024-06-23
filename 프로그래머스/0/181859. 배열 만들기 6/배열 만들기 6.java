@@ -13,7 +13,6 @@ class Solution {
                 }
             }
         }
-
         if (answer.size() == 0) {
             return new int[]{-1};
         }
