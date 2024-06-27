@@ -1,6 +1,6 @@
 # [level 0] 문자열 섞기 - 181942 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181942?language=javascript) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181942) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 2월 6일 8:42:30
+2024년 06월 28일 06:14:58
 
 ### 문제 설명
 
