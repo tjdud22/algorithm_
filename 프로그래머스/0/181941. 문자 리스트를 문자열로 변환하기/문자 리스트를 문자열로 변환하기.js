@@ -1,7 +1,7 @@
 function solution(arr) {
-    var answer = '';
+    var answer='';
     for(let i in arr){
-        answer+=arr[i];
+        answer += arr[i];
     }
     return answer;
 }
