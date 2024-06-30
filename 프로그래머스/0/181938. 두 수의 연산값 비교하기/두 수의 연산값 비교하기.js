@@ -1,4 +1,4 @@
 function solution(a, b) {
-     var answer = (Number(`${a}${b}`) >= 2 * a * b ) ? Number(`${a}${b}`) : 2 * a * b;
+     var answer = parseInt(`${a}${b}`) >= 2*parseInt(`${a}`*`${b}`) ? parseInt(`${a}${b}`) : 2*parseInt(`${a}`*`${b}`);
     return answer;
 }
