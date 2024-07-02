@@ -1,6 +1,6 @@
 # [level 0] 공배수 - 181936 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181936?language=javascript) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181936) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 2월 1일 21:30:55
+2024년 07월 03일 05:55:55
 
 ### 문제 설명
 
