@@ -1,5 +1,5 @@
 function solution(numLog) {
-    var answer = '';
+    let answer = '';
     for (let i = 1; i < numLog.length; i++) {
     let diff = numLog[i] - numLog[i - 1];
 
@@ -13,5 +13,6 @@ function solution(numLog) {
         answer += "a";
     }
 }
+    
     return answer;
 }
