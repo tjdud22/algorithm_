@@ -2,7 +2,6 @@ function solution(numLog) {
     let answer = '';
     for (let i = 1; i < numLog.length; i++) {
     let diff = numLog[i] - numLog[i - 1];
-
     if (diff === 1) {
         answer += "w";
     } else if (diff === -1) {
@@ -13,6 +12,5 @@ function solution(numLog) {
         answer += "a";
     }
 }
-    
     return answer;
 }
