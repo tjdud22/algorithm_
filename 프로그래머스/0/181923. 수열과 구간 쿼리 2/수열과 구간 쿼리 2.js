@@ -1,5 +1,5 @@
 function solution(arr, queries) {
-      var answer = [];
+    let answer = [];
     for (let i = 0; i < queries.length; i++) {
         let min = Infinity;
         for (let j = queries[i][0]; j <= queries[i][1]; j++) {
