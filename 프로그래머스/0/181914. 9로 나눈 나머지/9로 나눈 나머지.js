@@ -1,7 +1,7 @@
 function solution(number) {
-    var answer = 0;
-    var digits = number.toString().split('');
-    for (var digit of digits) {
+    let answer = 0;
+    let digits = number.toString().split('');
+    for (let digit of digits) {
         answer += parseInt(digit);
     }
     return answer % 9;
