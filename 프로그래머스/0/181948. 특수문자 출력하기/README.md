@@ -1,10 +1,10 @@
 # [level 0] 특수문자 출력하기 - 181948 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181948?language=csharp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181948?language=c) 
 
 ### 성능 요약
 
-메모리: 15.9 MB, 시간: 23.89 ms
+메모리: 3.77 MB, 시간: 1.41 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 0일 20:26:24
+2024년 07월 25일 05:50:46
 
 ### 문제 설명
 
