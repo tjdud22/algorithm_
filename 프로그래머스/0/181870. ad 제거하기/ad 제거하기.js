@@ -1,5 +1,5 @@
 function solution(strArr) {
-    var answer = [];
+    let answer = [];
     for(let i =0; i<strArr.length; i++){
         if(!strArr[i].includes("ad")){
             answer.push(strArr[i]);
