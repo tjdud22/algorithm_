@@ -1,10 +1,10 @@
 # [level 0] 정수 찾기 - 181840 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181840?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181840?language=javascript) 
 
 ### 성능 요약
 
-메모리: 73.7 MB, 시간: 0.01 ms
+메모리: 33.5 MB, 시간: 0.09 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 05월 06일 06:46:45
+2024년 08월 27일 20:57:39
 
 ### 문제 설명
 
