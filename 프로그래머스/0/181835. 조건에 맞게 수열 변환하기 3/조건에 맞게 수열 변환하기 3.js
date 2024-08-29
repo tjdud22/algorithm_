@@ -1,5 +1,5 @@
 function solution(arr, k) {
-    var answer = [];
+    let answer = [];
     for (let i of arr) {
         if (k % 2 == 1) {
             answer.push(i*k);
