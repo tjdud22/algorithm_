@@ -6,6 +6,5 @@ function solution(myString) {
             charArray[i] = 'l';
         }
     }
-
     return charArray.join('');
 }
