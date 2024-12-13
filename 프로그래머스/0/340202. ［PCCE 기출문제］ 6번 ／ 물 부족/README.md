@@ -1,10 +1,10 @@
 # [level 0] [PCCE 기출문제] 6번 / 물 부족 - 340202 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/340202) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/340202?language=python3) 
 
 ### 성능 요약
 
-메모리: 4.2 MB, 시간: 0.01 ms
+메모리: 10.3 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 08일 10:48:59
+2024년 12월 13일 21:26:42
 
 ### 문제 설명
 
