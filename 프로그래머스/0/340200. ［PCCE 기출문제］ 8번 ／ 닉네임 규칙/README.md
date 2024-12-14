@@ -1,10 +1,10 @@
 # [level 0] [PCCE 기출문제] 8번 / 닉네임 규칙 - 340200 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/340200?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/340200?language=python3) 
 
 ### 성능 요약
 
-메모리: 78.2 MB, 시간: 15.15 ms
+메모리: 10.1 MB, 시간: 0.00 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 09일 21:40:20
+2024년 12월 14일 18:27:29
 
 ### 문제 설명
 
