@@ -7,8 +7,6 @@ class Solution {
             char[] str = keymap[i].toCharArray();
             for(int j=0; j<str.length; j++){
                 if (!map.containsKey(String.valueOf(str[j])) || j+1 < map.get(String.valueOf(str[j]))) {
-                            System.out.println(String.valueOf(str[j]));
-                    System.out.println(j+1);
     map.put(String.valueOf(str[j]), j+1);
             }
             
