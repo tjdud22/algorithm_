@@ -1,10 +1,10 @@
 # [level 0] 그림 확대 - 181836 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181836) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181836?language=javascript) 
 
 ### 성능 요약
 
-메모리: 87.4 MB, 시간: 0.42 ms
+메모리: 33.6 MB, 시간: 0.25 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 01월 15일 16:20:06
+2025년 05월 15일 10:56:56
 
 ### 문제 설명
 
