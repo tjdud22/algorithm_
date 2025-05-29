@@ -4,7 +4,7 @@ function solution(A, B) {
         if(A === B){
             break;
         }
-        A = A.slice(A.length-1)+A.slice(0,A.length-1);
+        A = A.slice(-1)+A.slice(0,-1);
         answer++;
     }
     return answer>=A.length ? -1 : answer;
