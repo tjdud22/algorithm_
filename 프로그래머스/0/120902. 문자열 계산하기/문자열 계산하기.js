@@ -6,9 +6,9 @@ function solution(my_string) {
             let num = parseInt(str[i]);
 
             if (i > 0) {
-                if (str[i - 1] === "+") {
+                if (str[i-1] === "+") {
                     answer += num;
-                } else if (str[i - 1] === "-") {
+                } else if (str[i-1] === "-") {
                     answer -= num;
                 }
             } else {
