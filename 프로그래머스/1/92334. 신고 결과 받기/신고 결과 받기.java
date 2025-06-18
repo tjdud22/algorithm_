@@ -11,7 +11,6 @@ class Solution {
             String reportedUser = parts[1];
             reportMap.put(reportedUser, reportMap.getOrDefault(reportedUser,0)+1);
         }
-            System.out.print(reportMap);
         
         List<String> reported = new ArrayList<>();
         for(String user : reportMap.keySet()){
@@ -19,7 +18,6 @@ class Solution {
                 reported.add(user);
             }
         }
-        System.out.print(reported);
         
         int[] answer = new int[id_list.length];
         for(String rep : uniqueReports){
