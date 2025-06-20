@@ -1,40 +1,52 @@
 class Solution {
     public String solution(int[] numbers, String hand) {
-        String answer = "";
-        //처음 위치 left:*(10),right:#(11)
-        int leftHand = 10;
-        int rightHand = 11;
-        int[][] coordinate = {{0, 3},{-1, 0},{0, 0},{1, 0},{-1, 1},{0, 1},{1, 1},{-1, 2},{0, 2},{1, 2},{-1,3},{1,3}};
-        
-        for(int i=0; i<numbers.length; i++){
-            if(numbers[i] == 1 || numbers[i] == 4 || numbers[i] == 7){
-                answer +="L";
-                leftHand = numbers[i];
-            }else if(numbers[i] == 3 || numbers[i] == 6 || numbers[i] == 9){
-                answer +="R";
-                rightHand = numbers[i];
+        int [] leftHand = {3,0};
+        int [] rightHand ={3,2};
+        int[][] coordinate = {{3, 1},{0, 0},{0, 1},{0, 2},{1,0},{1, 1},{1, 2},{2, 0},{2, 1},{2, 2}};
+
+	StringBuilder answer = new StringBuilder();        
+
+        for(int num : numbers){
+            if(isLeftNumber(num)){
+                answer.append("L");
+                leftHand = coordinate[num];
+            }else if(isRightNumber(num)){
+                answer.append("R");
+                rightHand = coordinate[num];
             }else{
-                int leftSum = Math.abs(coordinate[numbers[i]][0] - coordinate[leftHand][0]) + Math.abs(coordinate[numbers[i]][1] - coordinate[leftHand][1]);
-                int rightSum = Math.abs(coordinate[numbers[i]][0] - coordinate[rightHand][0]) + Math.abs(coordinate[numbers[i]][1] - coordinate[rightHand][1]);
-                
-                
+                int leftSum = getDist(coordinate[num],leftHand);
+                int rightSum =  getDist(coordinate[num],rightHand);
+
+              
                if(leftSum > rightSum){
-                   answer +="R";
-                   rightHand = numbers[i];
+                   answer.append("R");
+                   rightHand = coordinate[num];
                }else if(leftSum < rightSum){
-                   answer +="L";
-                   leftHand = numbers[i];
+                   answer.append("L");
+                   leftHand = coordinate[num];
                }else{
                    if(hand.equals("right")){
-                       answer +="R";
-                       rightHand = numbers[i];
+                       answer.append("R");
+                       rightHand = coordinate[num];
                    }else{
-                       answer +="L";
-                       leftHand = numbers[i];
+                       answer.append("L");
+                       leftHand = coordinate[num];
                    };
                }
             }
         }
-        return answer;
+        return answer.toString();
+    }
+
+    private boolean isLeftNumber(int num){
+	    return num == 1 || num == 4 || num == 7;
+    }
+
+    private boolean isRightNumber(int num){
+	    return num == 3 || num == 6 || num == 9;
+    }
+
+    private int getDist(int[] from, int[] to){
+	    return Math.abs(from[0] - to[0]) + Math.abs(from[1] - to[1]);
     }
 }
