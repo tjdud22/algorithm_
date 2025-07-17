@@ -1,10 +1,10 @@
 # [level 0] 문자열 곱하기 - 181940 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181940?language=javascript) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181940?language=python3) 
 
 ### 성능 요약
 
-메모리: 33.4 MB, 시간: 0.03 ms
+메모리: 9.31 MB, 시간: 0.00 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 06월 29일 07:12:14
+2025년 07월 18일 07:48:19
 
 ### 문제 설명
 
