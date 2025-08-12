@@ -6,4 +6,4 @@ def solution(num_list):
             sum1 += num
         else:
             sum2 += num
-    return sum1 if sum1 > sum2 else sum2
+    return sum1 if sum1 >= sum2 else sum2
