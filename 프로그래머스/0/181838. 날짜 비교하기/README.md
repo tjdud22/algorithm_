@@ -1,10 +1,10 @@
 # [level 0] 날짜 비교하기 - 181838 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181838) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181838?language=python3) 
 
 ### 성능 요약
 
-메모리: 33.4 MB, 시간: 0.04 ms
+메모리: 9.26 MB, 시간: 0.00 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 08월 26일 21:03:57
+2025년 09월 02일 10:35:12
 
 ### 문제 설명
 
