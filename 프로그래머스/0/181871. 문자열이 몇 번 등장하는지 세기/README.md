@@ -1,10 +1,10 @@
 # [level 0] 문자열이 몇 번 등장하는지 세기 - 181871 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181871?language=javascript) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181871?language=python3) 
 
 ### 성능 요약
 
-메모리: 33.4 MB, 시간: 0.05 ms
+메모리: 9.35 MB, 시간: 0.15 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 03월 27일 01:26:25
+2025년 09월 08일 10:39:44
 
 ### 문제 설명
 
