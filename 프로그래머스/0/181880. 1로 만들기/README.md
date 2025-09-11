@@ -1,10 +1,10 @@
 # [level 0] 1로 만들기 - 181880 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181880?language=javascript) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181880?language=python3) 
 
 ### 성능 요약
 
-메모리: 33.4 MB, 시간: 0.18 ms
+메모리: 9.23 MB, 시간: 0.02 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 05월 07일 11:21:21
+2025년 09월 11일 15:58:23
 
 ### 문제 설명
 
