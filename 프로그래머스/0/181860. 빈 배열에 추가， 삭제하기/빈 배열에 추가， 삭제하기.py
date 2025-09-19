@@ -7,9 +7,5 @@ def solution(arr, flag):
             for i in range(arr[idx]*2):
                 answer.append(arr[idx])
         else:
-            for i in range(arr[idx]):
-                if len(answer)>0:
-                    answer.pop()
-                else:
-                    break
+            answer = answer[:-(arr[idx])]
     return answer
