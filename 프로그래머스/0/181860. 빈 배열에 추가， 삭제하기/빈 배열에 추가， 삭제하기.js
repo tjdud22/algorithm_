@@ -6,9 +6,7 @@ function solution(arr, flag) {
                 answer.push(arr[i]);
             }
         } else {
-            for (let j = 0; j < arr[i]; j++) {
-                answer.splice(-1, 1); 
-            }
+                answer.splice(-arr[i], arr[i]); 
         }
     }
 
