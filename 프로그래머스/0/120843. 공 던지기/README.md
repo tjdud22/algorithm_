@@ -1,10 +1,10 @@
 # [level 0] 공 던지기 - 120843 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120843?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120843) 
 
 ### 성능 요약
 
-메모리: 9.34 MB, 시간: 0.16 ms
+메모리: 9.13 MB, 시간: 0.00 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 10월 06일 10:48:50
+2025년 10월 09일 20:15:22
 
 ### 문제 설명
 
