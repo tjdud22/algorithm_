@@ -1,8 +1,6 @@
 def solution(s):
     answer = ''
-    str = list(s)
-    
-    for i in set(str):
+    for i in set(s):
         if s.count(i) == 1:
             answer+=i
     
