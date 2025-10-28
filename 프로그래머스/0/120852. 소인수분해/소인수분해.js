@@ -2,15 +2,15 @@ function solution(n) {
     let answer = [];
     for(let i=2; i<=n; i++){
         if(n % i == 0){
-            let cnt = 0
-            for(let j=2; j<=i; j++){
+            let isPrime = true;
+            for(let j=2; j*j<=i; j++){
                 if(i % j == 0){
-                    cnt++;
+                    isPrime = false;
+                    break;
                 }
             }
-            if(cnt <=1) answer.push(i); 
+            if(isPrime) answer.push(i); 
         } 
     }
-    console.log(answer)
     return answer;
 }
