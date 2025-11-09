@@ -1,6 +1,2 @@
 def solution(x):
-    sum = 0 
-    for i in str(x):
-        sum = sum + int(i) 
-    
-    return True if x % sum == 0 else False
+    return True if x % sum(int(i) for i in str(x)) == 0 else False
