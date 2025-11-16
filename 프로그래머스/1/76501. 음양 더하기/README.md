@@ -1,10 +1,10 @@
 # [level 1] 음양 더하기 - 76501 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/76501?language=javascript) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/76501?language=python3) 
 
 ### 성능 요약
 
-메모리: 33.3 MB, 시간: 0.10 ms
+메모리: 9.28 MB, 시간: 0.16 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 04월 19일 08:31:27
+2025년 11월 16일 20:45:24
 
 ### 문제 설명
 
