@@ -1,13 +1,10 @@
 function solution(participant, completion) {
-    const count = {};
-    for(let name of participant){
-        count[name] = (count[name] || 0 )+1;
+    participant.sort();
+    completion.sort();
+    for(let i=0; i<participant.length; i++){
+        if(participant[i] !== completion[i]){
+                return participant[i];
+        }
     }
-    for(let name of completion){
-        count[name]--;
-    }
-    
-    for(let name in count){
-        if (count[name] > 0) return name;
-    }
+    return participant[participant.length];
 }
