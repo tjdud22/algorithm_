@@ -2,7 +2,7 @@ import java.util.*;
 class Solution {
     public String solution(String[] survey, int[] choices) {
         String answer = "";
-        Map<String,Integer> map = new HashMap<>();
+        Map<String,Integer> map = new LinkedHashMap<>();
         map.put("RT",0);
         map.put("CF",0);
         map.put("JM",0);
