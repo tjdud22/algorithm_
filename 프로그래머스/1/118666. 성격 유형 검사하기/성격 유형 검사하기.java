@@ -1,7 +1,7 @@
 import java.util.*;
 class Solution {
     public String solution(String[] survey, int[] choices) {
-        String answer = "";
+        StringBuilder answer = new StringBuilder();
         Map<String,Integer> map = new LinkedHashMap<>();
         map.put("RT",0);
         map.put("CF",0);
@@ -22,12 +22,12 @@ class Solution {
             Integer value = entry.getValue();
             
             if(value <= 0){
-                answer += key.substring(0,1);
+                answer.append(key.substring(0,1));
             }else{
-                answer += key.substring(1,2);
+                answer.append(key.substring(1,2));
             }
         }
         
-        return answer;
+        return answer.toString();
     }
 }
