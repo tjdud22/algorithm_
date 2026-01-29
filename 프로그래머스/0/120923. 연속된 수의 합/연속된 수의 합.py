@@ -1,8 +1,6 @@
 def solution(num, total):
-    x = -100
-    while(True):
-        acc=[x+i for i in range(num)]
-        x+=1
-        if(total == sum(acc)):
-            return acc
-            
+    center = total//num
+    if num % 2 == 0:
+        return [i for i in range(center-(num//2-1),center+(num//2+1))]
+    else:
+        return [i for i in range(center-(num//2),center+(num//2+1))]
