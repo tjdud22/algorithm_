@@ -11,9 +11,7 @@ def solution(score):
     prev_rank = 0
     for rank,(avg,idx) in enumerate(arr):
         if avg != prev_score:
-            ranks[idx] = rank+1
             prev_score = avg
             prev_rank = rank+1
-        else:
-            ranks[idx] = prev_rank
+        ranks[idx] = prev_rank
     return ranks
