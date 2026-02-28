@@ -3,4 +3,4 @@ def solution(arr, k):
     for i in arr:
         if i not in answer:
             answer.append(i)
-    return answer[:k]+[-1]*(k-len(answer))
+    return answer[:k]+[-1]*max(0,k-len(answer))
