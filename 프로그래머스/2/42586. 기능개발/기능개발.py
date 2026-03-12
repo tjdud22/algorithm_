@@ -2,19 +2,16 @@ import math
 def solution(progresses, speeds):
     answer = []
     workday = []
-    for idx in range(len(progresses)):
-        workday.append(math.ceil((100 - progresses[idx])/speeds[idx]))
+    for p,s in zip(progresses,speeds):
+        workday.append(math.ceil((100 - p)/s))
     
     cnt = 0
-    max = workday[0]
+    max_day = workday[0]
     for idx in range(len(workday)-1):
         cnt+=1
-        if max < workday[idx+1]:
-            max = workday[idx+1]
+        if max_day < workday[idx+1]:
             answer.append(cnt)
+            max_day = workday[idx+1]
             cnt = 0
-    if max >= workday[-1]:
-        answer.append(cnt+1)
-    else:
-        answer.append(1)
+    answer.append(cnt+1)
     return answer
