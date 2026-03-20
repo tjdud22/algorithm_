@@ -2,7 +2,7 @@ def solution(s):
     answer = []
     s = s.split('},{')
     s[0]=s[0][2:]
-    s[len(s)-1] = s[len(s)-1][:len(s[len(s)-1])-2]
+    s[-1] = s[-1][:-2]
     s = sorted(s,key=lambda x:len(x))
     
     for i in s:
