@@ -1,13 +1,10 @@
 def solution(s):
     answer = []
-    s = s.split('},{')
-    s[0]=s[0][2:]
-    s[-1] = s[-1][:-2]
-    s = sorted(s,key=lambda x:len(x))
+    s = s[2:-2].split('},{')
+    s.sort(key=len)
     
     for i in s:
-        nums = list(map(int,i.split(',')))
-        for num in nums:
+        for num in map(int,i.split(',')):
             if num not in answer:
-                answer.append(int(num))
+                answer.append(num)
     return answer
